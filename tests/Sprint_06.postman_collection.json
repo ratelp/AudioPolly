@@ -1,0 +1,173 @@
+{
+	"info": {
+		"_postman_id": "6c98f395-e827-49af-8794-2eceb794f3d6",
+		"name": "Sprint_06",
+		"description": "Coleção de testes para a API Text-to-Speech (TTS) em diferentes versões.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32642517"
+	},
+	"item": [
+		{
+			"name": "home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sjd0d04oy6.execute-api.us-east-1.amazonaws.com/",
+					"protocol": "https",
+					"host": [
+						"sjd0d04oy6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "v1/tts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phrase\":\"uma nova frase aleatoria\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sjd0d04oy6.execute-api.us-east-1.amazonaws.com/v1/tts",
+					"protocol": "https",
+					"host": [
+						"sjd0d04oy6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"v1",
+						"tts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "v1/description",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sjd0d04oy6.execute-api.us-east-1.amazonaws.com/v1",
+					"protocol": "https",
+					"host": [
+						"sjd0d04oy6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "v2/tts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phrase\":\"uma nova frase aleatória\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sjd0d04oy6.execute-api.us-east-1.amazonaws.com/v2/tts",
+					"protocol": "https",
+					"host": [
+						"sjd0d04oy6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"v2",
+						"tts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "v2/description",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sjd0d04oy6.execute-api.us-east-1.amazonaws.com/v2",
+					"protocol": "https",
+					"host": [
+						"sjd0d04oy6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "v3/tts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phrase\":\"converta esse texto para áudio\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sjd0d04oy6.execute-api.us-east-1.amazonaws.com/v3/tts",
+					"protocol": "https",
+					"host": [
+						"sjd0d04oy6",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"v3",
+						"tts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
